@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Poppins:ital,wght@1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#photoback {
+    background-image: url(https://images.pexels.com/photos/4555613/pexels-photo-4555613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    position: absolute;
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 0, 210px;
+    width: 100%;
+    height: 100%;
+}
+
+#over {
+    background-color: #d55b1278;
+    height: inherit;
+    width: 38.2%;
+}
+
+#over i {
+    top: 15%;
+    position: absolute;
+    font-size: 3.3em;
+    left: 6%;
+}
+
+#over i span {
+    font-family: 'Poppins', sans-serif;
+}
+
+#over p {
+    top: 21%;
+    position: absolute;
+    left: 11%;
+    width: 22%;
+    color: #00000096;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: unset;
+}
+
+#white {
+
+    background-color: white;
+    float: right;
+    height: inherit;
+    position: absolute;
+    left: 65%;
+}
+
+#white i {
+    font-size: larger;
+    top: auto;
+}
+
+.fas {
+    color: #382222;
+
+}
+
+.gray {
+    color: rgba(128, 128, 128, 0.73);
+    left: -21%;
+    position: relative;
+    font-size: small;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    margin: -7px -10px;
+    margin-bottom: -7px;
+    margin-bottom: -7px;
+    margin-bottom: -7px;
+    cursor: pointer;
+    width: -moz-available;
+    left: -35%;
+    position: relative;
+    margin-bottom: 4%;
+    border-radius: 4px;
+    box-shadow: -1px 0.4px 8px #d55a12a6;
+}
+
+#fac {
+    background-color: rgb(35, 94, 182);
+}
+
+#go {
+    background-color: white;
+    color: black;
+}
+
+input[type=text],
+input[type=password],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.in {
+    position: relative;
+    left: -35%;
+}
+
+.container {
+    font-size: smaller;
+}
+
+#pass {
+    position: relative;
+    float: right;
+    color: #d55b12;
+    font-size: smaller;
+    text-decoration: underline;
+    margin: 1px;
+}
+
+#log {
+    background-color: #d55b12;
+    color: white;
+    left: 20%;
+    top: 31px;
+    width: 61%;
+}
