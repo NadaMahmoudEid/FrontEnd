@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Orbitron:wght@500&display=swap');
+* {    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(248, 248, 248, 0.865);
+}
+
+#log {
+    position: absolute;
+    top: -144%;
+    background-color: #ffffffab;
+    border: 1px solid #80808005;
+    height: 11px;
+    width: 5%;
+    margin: 6%;
+    text-align: center;
+    left: 41%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+h1 {
+
+    background: none;
+    display: none;
+}
+
+h4 {
+    position: relative;
+    background: none;
+    font-size: smaller;
+    top: -1%;
+    color: #2d2d2db1;
+    display: none;
+
+}
+.in{
+    display: none;
+    margin-top: 1%;
+    background: none;
+}
+.in2{
+    display: none;
+    margin-top: 1%;
+    background: none;
+left: -4.2%;
+position: relative;
+bottom: 2%;
+}
+input{
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: none;
+}
+label{
+  
+    background: none;
+}
+button{
+    background: none;
+
+}
+.container{
+    position: relative;
+left: -47%;
+font-size: x-small;
+display: none;
+
+}
+#check{
+    left: -21%;
+position: relative;
+display: none;
+}
+#blog{
+    background: #df5e02;;
+        color: white;
+        border: 0px soild aliceblue;
+        border-radius: 6px;
+        padding: 1%;
+        left: -5%;
+        position: relative;
+        display: none;
+        border: 1px solid;
+        padding: 2%;
+    
+}
